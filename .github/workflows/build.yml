@@ -1,7 +1,6 @@
-```yaml
 name: Build HyperOS Weather Widget APK
 
-on:
+'on':
   push:
     branches:
       - main
@@ -40,4 +39,3 @@ jobs:
         with:
           name: HyperOS-Weather-Widget-Test
           path: app/build/outputs/apk/debug/app-debug.apk
-```
